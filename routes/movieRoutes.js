@@ -1,6 +1,6 @@
 import express from "express";
 
-import { searchMovies,getMovieDetails } from "../controllers/movieController";
+import { searchMovies,getMovieDetails } from "../controllers/movieController.js";
 
 //creating a mini-router to organize all movie-related routes
 const router = express.Router();

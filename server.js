@@ -1,7 +1,7 @@
 import "dotenv/config";
 import express from "express";
 //importing movie router
-import movieRoutes from "./routes/movieRoutes";
+import movieRoutes from "./routes/movieRoutes.js";
 //express and the port
 const app = express();
 const port=process.env.PORT||3001;
